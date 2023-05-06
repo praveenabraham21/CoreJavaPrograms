@@ -1,6 +1,6 @@
 package dataTypes;
 
-public class primtiveDataType {
+public class primitiveDataType {
     public static void main(String[] args) {
 
         /*Boolean data type represents only bit of information either true or false.
@@ -11,15 +11,21 @@ public class primtiveDataType {
 
         boolean a = true;
         boolean b = false;
-        boolean c = Boolean.parseBoolean("true");
-        boolean d = Boolean.parseBoolean("false");
-        boolean e = Boolean.parseBoolean("null");
-
         System.out.println(a);
         System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
+
+        char test = 'G';
+        System.out.println(test);
+
+        int i = 10;
+        System.out.println(i);
+
+        byte lowerValue = -128;
+        System.out.println(lowerValue);
+
+        byte byteVar = 127;
+        System.out.println(byteVar);
+
 
     }
 }

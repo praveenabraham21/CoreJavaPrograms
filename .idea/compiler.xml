@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java-handson" target="1.5" />
+      <module name="java-handson" target="20" />
     </bytecodeTargetLevel>
   </component>
 </project>
